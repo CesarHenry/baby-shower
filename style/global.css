@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+:root {
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%) no-repeat;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 90px;
+  }
+}

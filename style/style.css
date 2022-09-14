@@ -1,0 +1,226 @@
+/* HEADER */
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.title h1 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 10rem;
+  color: #bf8578;
+  text-shadow: 1px 1px 1px #8c4646;
+}
+
+.title h2 {
+  font-family: "Lobster", cursive;
+  font-size: 10rem;
+  color: #8c4646;
+  margin-top: -40px;
+}
+
+.ballon {
+  position: absolute;
+  width: 300px;
+  right: -90px;
+  top: -80px;
+  z-index: -1;
+}
+
+/* SECTION INTRODUCTION */
+.introduction {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.introduction__content {
+  background: rgb(0, 0, 0, 0.03);
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.introduction p {
+  font-size: 2.1rem;
+  color: #8c4646;
+}
+
+.introduction p + p {
+  margin: 20px 0;
+}
+
+/* SECTION SAVE DATE */
+.save__date__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.address {
+  height: 150px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: #8c4646;
+}
+
+.address::before {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 3px;
+  background: #bf8578;
+}
+.address::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 4px;
+  background: #bf8578;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 4rem;
+  color: white;
+  background: #bf8578;
+}
+
+.date span {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #8c4646;
+}
+
+.time {
+  height: 150px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 3rem;
+  color: #8c4646;
+}
+
+.time::before {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 3px;
+  background: #bf8578;
+}
+.time::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 4px;
+  background: #bf8578;
+}
+
+.time__content {
+  display: flex;
+  align-items: center;
+}
+
+.time__content img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+/* SECTION CAROUSEL */
+.wrapper {
+  width: 100%;
+  max-width: 864px;
+  position: relative;
+  padding: 30px 0;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 320px) {
+  .header__content {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .title h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .ballon {
+    width: 50px;
+  }
+}
