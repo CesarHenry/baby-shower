@@ -1,12 +1,12 @@
 /* Reset Css */
-@import "./reset.css";
+@import url('reset.css');
 
 /* Global Css */
-@import "./global.css";
-@import "./container.css";
+@import url('global.css');
+@import url('container.css');
 
 /* Styled */
-@import "./style.css"
+@import url('style.css');
 
 
 
