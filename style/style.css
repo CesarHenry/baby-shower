@@ -156,6 +156,13 @@
   padding: 30px 0;
 }
 
+.wrapper h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 30px 0;
+  color: #bf8578;
+}
+
 #carousel {
   overflow: auto;
   scroll-behavior: smooth;
@@ -202,8 +209,30 @@
 }
 
 .item {
+  text-align: center;
   width: 300px;
   height: 300px;
+  background: rgb(0, 0, 0, 0.1);
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+.item span {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8c4646;
+}
+
+.item h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8c4646;
+}
+
+.item img {
+  margin-top: 15px;
+  width: 250px;
 }
 
 @media only screen and (max-width: 320px) {
