@@ -44,17 +44,20 @@
     <section class="save__date">
       <div class="container save__date__content">
         <div class="address">
-          <h2>Rua São Sebastião 845</h2>
-          <h2>Cariobinha</h2>
-          <h2>Americana</h2>
+          <div class="address__content">
+            <img src="assets/img/icons/Icon_Partid.svg" alt="icone gps" />
+            <div>
+              <h2>Rua Plutão 76</h2>
+              <h2>Jd. Alvorada</h2>
+              <h2>Americana</h2>
+            </div>
+          </div>
         </div>
-
         <div class="date">
           <span>Sábado</span>
           <h2>15</h2>
           <span>Outubro</span>
         </div>
-
         <div class="time">
           <div class="time__content">
             <img src="assets/img/icons/icon-time.svg" alt="icone relógio" />
@@ -64,42 +67,83 @@
       </div>
     </section>
 
-    <section>
-      <div class="container wrapper">
-        <h1>Dicas para uma experiência mais agradável!</h1>
-        <div id="carousel">
-          <div id="content">
-            <div class="item">
-              <h2>Traje de Banho</h2>
-              <img src="assets/img/icons/piscina.png" alt="imagem piscina" />
-            </div>
-            <div class="item">
-              <h2>Kit Churrasco</h2>
-              <img
-                src="assets/img/icons/churrasco.png"
-                alt="imagem churrasco"
-              />
-            </div>
-            <div class="item">
-              <h2>Sugestão Presente</h2>
-              <img src="assets/img/icons/fralda.png" alt="imagem fralda" />
-              <span>M / G</span>
-            </div>
-            <div class="item">
-              <h2>Cooler</h2>
-              <img src="assets/img/icons/cooler.png" alt="imagem cooler" />
-            </div>
-          </div>
+    <section class="container cards">
+      <h1>O que não pode faltar?</h1>
+      <div class="card">
+        <div class="front">
+          <img src="assets/img/icons/praia.png" alt="imagem praia" />
+          <span class="name">Traje de Banho</span>
         </div>
-        <button id="prev">
-          <img src="assets/img/icons/icon-prev.svg" alt="arrow previus" />
-        </button>
-        <button id="next">
-          <img src="assets/img/icons/icon-next.svg" alt="arrow next" />
-        </button>
+        <div class="back">
+          <span>Para curtir aquele solzinho e pegar um bronze!</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="front">
+          <img src="assets/img/icons/espetos.png" alt="imagem espetos" />
+          <span class="name">Kit Churrasco</span>
+        </div>
+        <div class="back">
+          <span>Para curtir aquele churrasquinho com os amigos!</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="front">
+          <img src="assets/img/icons/cerveja.png" alt="imagem cervejas" />
+          <span class="name">Cooler</span>
+        </div>
+        <div class="back">
+          <span>Para curtir aquela cervejinha com os amigos!</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="front">
+          <img src="assets/img/icons/fralda.png" alt="imagem fralda" />
+          <span class="name">Sugestão Presente</span>
+        </div>
+        <div class="back">
+          <span></span>
+        </div>
       </div>
     </section>
 
-    <script src="js/slider.js"></script>
+    <footer class="container footer">
+      <div class="giraffe">
+        <img src="assets/img/icons/giraffe.png" alt="imagem girafa" />
+      </div>
+
+      <div class="qrcode">
+        <p>Confirme sua presença no Qr-Code</p>
+        <img src="assets/img/icons/qr-code.png" alt="icone qr-code" />
+        <p>ou acesse:</p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScnMDWnfIeiV4_CTSbm6oC_kuuc7c7WAIMGgFKvlYaHdYq2hA/viewform"
+          target="_blank"
+          >confirmação</a
+        >
+      </div>
+      <div class="localization">
+        <p>GPS</p>
+        <div class="google">
+          <a
+            href="https://www.google.com.br/maps/dir//R.+Plut%C3%A3o,+76+-+Jardim+Thelja,+Americana+-+SP,+13479-100/@-22.757984,-47.3115683,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c899eb66bc59ab:0x811675aa32250d7f!2m2!1d-47.310474!2d-22.7579865"
+            target="_blank"
+          >
+            <img
+              src="assets/img/icons/google-maps.png"
+              alt="icone google-maps"
+            />
+          </a>
+        </div>
+        <div class="waze">
+          <a
+            href="https://www.waze.com/pt-BR/live-map/directions/br/sp/r.-plutao,-76?to=place.ChIJq1m8ZuuZyJQRfw0lMqp1FoE"
+            target="_blank"
+          >
+            <img src="assets/img/icons/waze.png" alt="icone waze" />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
