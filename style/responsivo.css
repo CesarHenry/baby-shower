@@ -1,0 +1,272 @@
+@media only screen and (max-width: 768px) {
+  .header__content {
+    align-items: center;
+  }
+  .title h1 {
+    font-size: 6rem;
+  }
+
+  .title h2 {
+    font-size: 6rem;
+    margin: 0;
+  }
+
+  .ballon {
+    width: 150px;
+    top: -10px;
+    right: 10px;
+  }
+
+  .introduction {
+    padding: 0;
+  }
+
+  .introduction__content {
+    padding: 0 10px;
+  }
+
+  .introduction p {
+    font-size: 1.4rem;
+    margin: 15px 0;
+  }
+
+  .introduction img {
+    width: 90%;
+  }
+
+  .address {
+    text-align: center;
+    font-size: 1.4rem;
+    height: 100px;
+  }
+
+  .address img {
+    width: 40px;
+  }
+
+  .date h2 {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+  }
+
+  .date span {
+    font-size: 1.6rem;
+  }
+
+  .time {
+    font-size: 2rem;
+    height: 100px;
+  }
+
+  .time img {
+    width: 40px;
+  }
+
+  .cards {
+    padding: 0;
+  }
+
+  .cards h1 {
+    font-size: 3rem;
+  }
+
+  .card {
+    width: 220px;
+    height: 280px;
+  }
+
+  .icon__footer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .icon__footer img {
+    width: 300px;
+  }
+
+  .footer__content {
+    width: 50%;
+  }
+
+  .qrcode img {
+    width: 130px;
+  }
+
+  .qrcode p {
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .qrcode a {
+    width: 130px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  .google {
+    width: 70px;
+  }
+
+  .waze {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .header__content .icon {
+    width: 300px;
+  }
+
+  .title h1 {
+    font-size: 4rem;
+  }
+
+  .title h2 {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .ballon {
+    width: 70px;
+    right: 70px;
+    top: 300px;
+  }
+
+  .introduction {
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .introduction img {
+    width: 100%;
+  }
+
+  .introduction__content {
+    border-radius: 0px;
+  }
+
+  .introduction p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .save__date__content {
+    padding: 0;
+  }
+
+  .address {
+    text-align: center;
+    font-size: 1.2rem;
+    height: 100px;
+  }
+
+  .address img {
+    display: none;
+  }
+
+  .date h2 {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+  }
+
+  .date span {
+    font-size: 1.4rem;
+  }
+
+  .time {
+    font-size: 1.4rem;
+    height: 100px;
+  }
+
+  .time img {
+    display: none;
+  }
+
+  .wrapper h1 {
+    font-size: 2rem;
+  }
+
+  #content {
+    padding-left: 10px;
+  }
+
+  .item {
+    width: 250px;
+  }
+
+  .cards {
+    padding: 0;
+  }
+
+  .cards h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 180px;
+    height: 220px;
+  }
+
+  .front .name {
+    font-size: 1rem;
+  }
+
+  .front img {
+    width: 80%;
+  }
+
+  .back {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .icon__footer {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .qrcode a {
+    font-size: 0.8rem;
+    width: 100px;
+    height: 30px;
+  }
+
+  .qrcode img {
+    width: 100px;
+  }
+
+  .qrcode p {
+    font-size: 1rem;
+    width: 150px;
+  }
+
+  .footer__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .google {
+    width: 50px;
+  }
+
+  .waze {
+    width: 50px;
+  }
+}
