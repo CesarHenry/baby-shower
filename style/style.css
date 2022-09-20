@@ -5,6 +5,7 @@
   justify-content: space-between;
   position: relative;
 }
+
 .icon {
   width: 100%;
 }
@@ -38,10 +39,15 @@
 
 /* SECTION INTRODUCTION */
 .introduction {
-  position: relative;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 80px 0;
   text-align: center;
+}
+
+.introduction img {
+  width: 30%;
 }
 
 .introduction__content {
@@ -119,7 +125,7 @@
 }
 
 .date h2:hover {
-  background: #C1D9D9;
+  background: #c1d9d9;
   color: #8c4646;
   border: 1px solid #bf8578;
 }
@@ -181,6 +187,8 @@
 }
 
 #container {
+  display: flex;
+  flex-wrap: wrap;
   width: auto;
   height: auto;
   margin-top: 120px;
@@ -197,6 +205,7 @@
   height: 300px;
   opacity: 0.85;
 }
+
 .front,
 .back {
   width: 100%;
@@ -255,21 +264,10 @@
 
 .back {
   text-align: center;
-  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: #8c4646;
-}
-
-.back .icon {
-  fill: currentColor;
-  color: inherit;
-  height: 33px;
-  width: 33px;
-  margin-top: 15px;
-  color: white;
-}
-.back .icon:hover {
-  cursor: pointer;
-  color: #648767;
 }
 
 /* FOOTER  */
@@ -282,11 +280,18 @@
 }
 
 .icon__footer {
-  width: 350px;
+  flex: 1;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
 .localization {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
 }
@@ -301,8 +306,8 @@
 }
 
 .qrcode {
-  width: 30%;
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -314,7 +319,7 @@
   color: #8c4646;
 }
 
-.qrcode img {  
+.qrcode img {
   width: 200px;
   margin: 10px 0;
 }
@@ -326,7 +331,7 @@
   width: 160px;
   height: 50px;
   font-size: 1.2rem;
-  background: black;
+  background: #8c4646;
   color: white;
   text-decoration: none;
   border-radius: 20px;
@@ -341,126 +346,3 @@
   border: 1px solid #bf8578;
 }
 
-@media only screen and (max-width: 425px) {
-  .header__content {
-    flex-direction: column;
-    padding: 0;
-  }
-  .title h1 {
-    font-size: 4rem;
-  }
-
-  .title h2 {
-    font-size: 4rem;
-    margin: 0;
-  }
-
-  .ballon {
-    width: 70px;
-    right: 70px;
-  }
-
-  .introduction {
-    padding: 0;
-    margin: 10px 0;
-  }
-
-  .introduction__content {
-    border-radius: 0px;
-  }
-
-  .introduction p {
-    text-align: center;
-    font-size: 1.2rem;
-  }
-
-  .save__date__content {
-    padding: 0;
-  }
-
-  .address {
-    text-align: center;
-    font-size: 1.2rem;
-    height: 100px;
-  }
-
-  .address img {
-    width: 20px;
-    margin-right: 5px;
-  }
-
-  .date h2 {
-    width: 70px;
-    height: 70px;
-    font-size: 2rem;
-  }
-
-  .date span {
-    font-size: 1.4rem;
-  }
-
-  .time {
-    font-size: 1.4rem;
-    height: 100px;
-  }
-
-  .time img {
-    width: 20px;
-    margin: 0;
-  }
-
-  .wrapper h1 {
-    font-size: 2rem;
-  }
-
-  #content {
-    padding-left: 10px;
-  }
-
-  .item {
-    width: 250px;
-  }
-
-  .cards {
-    padding: 0;
-  }
-
-  .cards h1 {
-    font-size: 2rem;
-  }
-
-  .card {
-    width: 220px;
-    height: 240px;
-  }
-
-  .front img {
-    width: 70%;
-  }
-
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-  }
-
-  .icon__footer {
-    width: 200px;
-    margin-bottom: 30px;
-  }
-
-  .qrcode a {
-    font-size: 1rem;
-    width: 140px;
-    height: 40px;
-  }
-
-  .localization {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px 0;
-  }
-
-
-}
