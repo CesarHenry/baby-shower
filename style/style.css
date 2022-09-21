@@ -11,21 +11,20 @@
 }
 
 .title {
-  width: 100%;
   text-align: center;
 }
 
 .title h1 {
-  font-family: "Pinyon Script", cursive;
+  font-family: var(--font-secondary);
   font-size: 10rem;
-  color: #bf8578;
-  text-shadow: 1px 1px 1px #8c4646;
+  color: var(--light-brown);
+  text-shadow: 1px 1px 1px var(--brown);
 }
 
 .title h2 {
-  font-family: "Lobster", cursive;
+  font-family: var(--font-tertiary);
   font-size: 10rem;
-  color: #8c4646;
+  color: var(--brown);
   margin-top: -40px;
 }
 
@@ -47,18 +46,18 @@
 }
 
 .introduction img {
-  width: 30%;
+  width: 40%;
 }
 
 .introduction__content {
-  background: rgb(0, 0, 0, 0.03);
+  background: var(--black-opacity);
   border-radius: 20px;
   padding: 20px 0;
 }
 
 .introduction p {
   font-size: 2.1rem;
-  color: #8c4646;
+  color: var(--brown);
 }
 
 .introduction p + p {
@@ -81,7 +80,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1.8rem;
-  color: #8c4646;
+  color: var(--brown);
 }
 .address__content {
   display: flex;
@@ -96,14 +95,14 @@
   display: block;
   width: 90%;
   height: 3px;
-  background: #bf8578;
+  background: var(--light-brown);
 }
 .address::after {
   content: "";
   display: block;
   width: 90%;
   height: 3px;
-  background: #bf8578;
+  background: var(--light-brown);
 }
 
 .date {
@@ -120,21 +119,21 @@
   height: 150px;
   border-radius: 50%;
   font-size: 4rem;
-  color: white;
-  background: #bf8578;
+  color: var(--white);
+  background: var(--light-brown);
 }
 
 .date h2:hover {
-  background: #c1d9d9;
-  color: #8c4646;
-  border: 1px solid #bf8578;
+  background: var(--green-water);
+  color: var(--brown);
+  border: 1px solid var(--light-brown);
 }
 
 .date span {
   font-size: 2rem;
   font-weight: 700;
   margin: 10px 0;
-  color: #8c4646;
+  color: var(--brown);
 }
 
 .time {
@@ -145,7 +144,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 3rem;
-  color: #8c4646;
+  color: var(--brown);
 }
 
 .time::before {
@@ -153,14 +152,14 @@
   display: block;
   width: 90%;
   height: 3px;
-  background: #bf8578;
+  background: var(--light-brown);
 }
 .time::after {
   content: "";
   display: block;
   width: 90%;
   height: 3px;
-  background: #bf8578;
+  background: var(--light-brown);
 }
 
 .time__content {
@@ -183,7 +182,7 @@
   font-family: "Lobster", cursive;
   font-size: 4rem;
   margin: 20px 0;
-  color: #8c4646;
+  color: var(--brown);
 }
 
 #container {
@@ -234,7 +233,7 @@
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   padding: 40px 15px;
-  color: #fff;
+  color: var(--white);
 }
 .card:hover .front {
   -webkit-transform: rotateY(-180deg);
@@ -245,20 +244,12 @@
   transform: rotateY(0deg);
 }
 
-.front .contact {
-  height: 120px;
-  width: 120px;
-  border: 5px solid #b2dbbf;
-  border-radius: 50%;
-  display: inline-block;
-  margin-bottom: 10px;
-}
 .front .name {
   display: inline-block;
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #8c4646;
+  color: var(--brown);
   margin-top: 5px;
 }
 
@@ -267,7 +258,7 @@
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #8c4646;
+  color: var(--brown);
 }
 
 /* FOOTER  */
@@ -316,7 +307,7 @@
 .qrcode p {
   width: 200px;
   font-size: 1.3rem;
-  color: #8c4646;
+  color: var(--brown);
 }
 
 .qrcode img {
@@ -331,8 +322,8 @@
   width: 160px;
   height: 50px;
   font-size: 1.2rem;
-  background: #8c4646;
-  color: white;
+  background: var(--brown);
+  color: var(--white);
   text-decoration: none;
   border-radius: 20px;
   text-transform: uppercase;
@@ -341,8 +332,7 @@
 }
 
 .qrcode a:hover {
-  background: #b2dbbf;
-  color: #8c4646;
-  border: 1px solid #bf8578;
+  background: var(--green-water);
+  color: var(--brown);
+  border: 1px solid var(--light-brown);
 }
-

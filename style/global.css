@@ -5,11 +5,20 @@
 }
 
 :root {
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Pinyon Script", cursive;
+  --font-tertiary: "Lobster", cursive;
+  --linear-pink: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%) no-repeat;
+  --brown: #8c4646;
+  --light-brown: #bf8578;
+  --black-opacity: rgb(0, 0, 0, 0.03);
+  --white: #FFF;
+  --green-water: #c1d9d9;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%) no-repeat;
+  font-family: var(--font-primary);
+  background: var(--linear-pink);
 }
 
 img {
