@@ -3,6 +3,7 @@
 * Project created by me
 * Web site created in HTML | CSS
 * Web site with qr-code for presence confirmation
+* Access this page <a href="https://cesarhenry.github.io/baby-shower/">🔗</a>
 
 ![image](https://user-images.githubusercontent.com/86115647/191605611-c932d7e2-89ef-4092-b073-0a945ed7f8fd.png)
 ---
